@@ -1,0 +1,135 @@
+@media only screen and (max-width: 1024px){
+  .skill-contant h3 {
+    font-size: 50px;
+  }
+  .contact{
+    width: 60%;
+  }
+  .gallery-item{
+    flex: 0 1 434px;
+  }
+  .gallery-item img {
+    max-width: 386px;
+  }
+}
+@media only screen and (max-width: 769px) {
+    .navbar-light .navbar-nav .nav-link{
+        padding:8px 0 !important;
+    }
+    .about-img img{
+      max-width: 440px !important;
+      height: 300px;
+      object-fit: cover;
+      margin: auto;
+      display: flex;
+    }
+    .headding-h1 {
+      font-size: 55px;
+    }
+    .about-sec,.skill-sec{
+      padding: 0;
+    }
+    
+  }
+  @media only screen and (max-width: 768px) {
+    .banner-img img{
+        width: 500px !important;
+      }
+      .slider__txt{
+        font-size: 20px;
+      }
+      .contact{
+        width: 70%;
+      }
+      .gallery-item{
+        flex: 0 1 314px;
+      }
+  }
+  @media only screen and (max-width: 426px) {
+    .banner-img img{
+        width: 100% !important;
+      }
+    .work p{
+        font-size: 40px;
+    }
+    .software-icon img{
+      width: 50px;
+    }
+    .headding-h3 {
+      font-size: 30px;
+    }
+    .headding-h1 {
+      font-size: 50px;
+    }
+    .special-skill{
+      padding: 0px;
+    }
+    .skill-contant h3 {
+      font-size: 40px;
+    }
+    .slider__txt{
+      font-size: 16px;
+    }
+    .contact{
+      width: 100%;
+    }
+    .gallery-item{
+      flex: 0 1 344px;
+    }
+    .contact-form{
+      padding: 30px !important;
+    }
+  }
+
+  @media(max-width:1000px)
+  {
+    .timeline{
+      width:100%;
+    }
+  }
+  @media(max-width:767px){
+    .timeline{
+      width:100%;
+      padding-bottom:0;
+    }
+    h1{
+      font-size:40px;
+      text-align:center;
+    }
+    .timeline:before{
+      left:20px;
+      height:100%;
+    }
+    .timeline ul li:nth-child(odd),
+    .timeline ul li:nth-child(even)
+    {
+      width:100%;
+      text-align:left;
+      padding-left:50px;
+      padding-bottom:50px;
+    }
+    .timeline ul li:nth-child(odd):before,
+    .timeline ul li:nth-child(even):before
+    {
+      top:-18px;
+      left:16px;
+    }
+    .timeline ul li:nth-child(odd) .time,
+    .timeline ul li:nth-child(even) .time{
+      top:-30px;
+      left:50px;
+      right:inherit;
+    }
+  }
+
+  @media (max-width: 30em) {
+    .wrap {
+      padding-left: 1em;
+      padding-right: 1em;
+   }
+    .gallery-item {
+      float: none;
+      width: 100%;
+   }
+  }
+  
