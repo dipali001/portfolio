@@ -423,6 +423,19 @@ a { text-decoration: none; }
     border-radius:18px;
     box-shadow:0 0 0 3px rgba(233,33,99,0.3);
   }
+  .timeline ul li:nth-child(5) .time 
+  {
+    position:absolute;
+    top:12px;
+    left:-305px;
+    margin:0;
+    padding:8px 16px;
+    /* background:rgba(233,33,99,1); */
+    background: var(--theme);
+    color:#fff;
+    border-radius:18px;
+    box-shadow:0 0 0 3px rgba(233,33,99,0.3);
+  }
 
 
   /* resume end */
